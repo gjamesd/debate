@@ -20,6 +20,7 @@ Polarity and Subjectivity Analysis (TextBlob): This function evaluates the senti
 * Polarity: This measures how positive or negative a statement is, ranging from -1 (very negative) to +1 (very positive). A score of 0 indicates a neutral sentiment.
 
 * Subjectivity: This assesses how subjective or objective the text is. A score close to 0 implies the text is more objective (fact-based), while a score closer to 1 suggests it is more subjective (opinion-based).
+
 The racing Bar Charts were created by subsetting the data to only include debates that were linked to the General Elections, then excluding stop words, simply counting the most common words in the corpus of each debate. 
 
 
