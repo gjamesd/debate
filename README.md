@@ -17,9 +17,9 @@ Readability Score (Flesch Reading Ease): The function also computes the Flesch R
 
 Polarity and Subjectivity Analysis (TextBlob): This function evaluates the sentiment of debate texts using TextBlob, a library that provides simple tools for processing textual data. TextBlob’s sentiment analysis breaks down each text into two main metrics:
 
-Polarity: This measures how positive or negative a statement is, ranging from -1 (very negative) to +1 (very positive). A score of 0 indicates a neutral sentiment.
+* Polarity: This measures how positive or negative a statement is, ranging from -1 (very negative) to +1 (very positive). A score of 0 indicates a neutral sentiment.
 
-Subjectivity: This assesses how subjective or objective the text is. A score close to 0 implies the text is more objective (fact-based), while a score closer to 1 suggests it is more subjective (opinion-based).
+* Subjectivity: This assesses how subjective or objective the text is. A score close to 0 implies the text is more objective (fact-based), while a score closer to 1 suggests it is more subjective (opinion-based).
 The racing Bar Charts were created by subsetting the data to only include debates that were linked to the General Elections, then excluding stop words, simply counting the most common words in the corpus of each debate. 
 
 
